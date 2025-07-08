@@ -1,0 +1,40 @@
+.status{
+    display: flex;
+    justify-content: space-between;
+    margin: 0%;
+    width: 45%;
+    position: fixed;
+    left: 800px;
+    font-size: 20px;
+    top: 30px;
+    z-index: 20;
+}
+.status1{
+    color: rgb(255, 2, 158);
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.status12{
+  color: rgb(255, 2, 158);
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  left: -750px;
+  position: relative;
+}
+.status13  button{
+   border-radius: 10px;
+   background-color:rgb(255, 2, 158);
+   color: rgb(255, 2, 158);
+   font-weight: bold;
+   height: 40px;
+   position: relative;
+   margin-top: -40px;
+ }
+ 
+ .status a{
+    
+ text-decoration: none;
+ color: rgb(255, 2, 158);
+ }
+
+ 
