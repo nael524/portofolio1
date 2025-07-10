@@ -1,17 +1,67 @@
-import "../assets/css/Contact.css"
-const Contact =()=>{
-    return(
-        <div className="contact"> CONTACT ME
-         <div className="contact2">
-            <form className="contact1"  >
-                <input type="text" placeholder="Name"/>
-                <input type="email" placeholder="Email" />
-                <input type="text" placeholder="Masssage"/>
-                <button type="submit" >Send</button>
-            </form>
-         </div>
-        
+import React from "react";
+import "../assets/css/Contact.css";
+import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
+
+const Contact = () => {
+  return (
+    <section className="contact-section" id="contact">
+      <h2 className="contact-heading">Contact</h2>
+      <p className="contact-sub">Hubungi saya untuk kolaborasi atau project freelance</p>
+
+      <div className="contact-grid">
+        {/* Kiri: Kontak Info */}
+        <div className="contact-info">
+          <div className="info-box">
+            <FaMapMarkerAlt className="icon" />
+            <div>
+              <h4>Address</h4>
+              <p>Sumatra utara ,Medan ,Perbaungan, <br/>Tualang Lingkungan IX Jalan sunario</p>
+            </div>
+          </div>
+          <div className="info-box">
+            <FaPhoneAlt className="icon" />
+            <div>
+              <h4>Call Me</h4>
+              <p>0821-6280-2600</p>
+            </div>
+          </div>
+          <div className="info-box">
+            <FaEnvelope className="icon" />
+            <div>
+              <h4>Email</h4>
+              <p>rahmadainurkhalisa@gmail.com</p>
+            </div>
+          </div>
         </div>
-    )
-}
+
+        {/* Kanan: Form */}
+        <form className="contact-form">
+          <div className="form-row">
+            <div className="form-group">
+              <label>Your Name</label>
+              <input type="text" placeholder="Enter your name" />
+            </div>
+            <div className="form-group">
+              <label>Your Email</label>
+              <input type="email" placeholder="Enter your email" />
+            </div>
+          </div>
+
+          <div className="form-group">
+            <label>Subject</label>
+            <input style={{width:"785px"}} type="text" placeholder="Subject" />
+          </div>
+
+          <div className="form-group">
+            <label>Message</label>
+            <textarea rows="5" placeholder="Your message here..." />
+          </div>
+
+          <button type="submit" className="submit-btn">Send Message</button>
+        </form>
+      </div>
+    </section>
+  );
+};
+
 export default Contact;

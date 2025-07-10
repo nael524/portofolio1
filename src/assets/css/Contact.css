@@ -1,44 +1,114 @@
-.contact{
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    position: relative;
-    margin-top: 400px;
-    font-size: 70px;
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.contact-section {
+  padding: 80px 60px;
+  background-color: #fff;
+  font-family: 'Segoe UI', sans-serif;
 }
-.contact1 input{
-    display: block;
-    position: relative;
-    margin-left: 500px;
-    width: 500px;
-    margin-top: 30px;
-    height: 40px;
-    border-radius: 10px;
+
+.contact-heading {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
-.contact1 button{
-    border-radius: 7px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(255, 2, 158);
-    height: 35px;
-    width: 90px;
-    position: relative;
-    left: 210px;
-     font-weight:bold;
-      
+
+.contact-sub {
+  text-align: center;
+  color: #555;
+  margin-bottom: 50px;
 }
-.contact{
-    background-color:rgb(255, 2, 158);
-    border-radius: 15px;
-    width: 700px;
-    position: absolute;
-    left: 450px;
-    height: 500px;
-    
+
+.contact-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
 }
-.contact2{
-    margin-left: -400px;
+
+.contact-info {
+  flex: 1;
+  min-width: 280px;
+  max-width: 400px;
+  background-color: #fff0f8;
+  border: 3px solid rgb(255, 2, 158);
+  border-radius: 10px;
 }
-.contact1{
-    margin-top: 80px;
+
+.info-box {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 30px;
+  position: relative;
+  top: 70px;
+  left: 50px;
+  width: 500px;
+}
+ 
+.info-box .icon {
+  background-color: rgb(224, 255, 255);
+  color: rgb(255, 2, 158);
+  font-size: 24px;
+  padding: 12px;
+  border-radius: 50%;
+  margin-right: 16px;
+  
+  position: relative;
+}
+ 
+.info-box h4 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.info-box p {
+  margin: 4px 0 0 0;
+  color: #333;
+}
+
+.contact-form {
+  flex: 2;
+  min-width: 100px;
+}
+
+.form-row {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.form-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  width: 300px;
+}
+
+.submit-btn {
+   
+ background-color: #fa0487;
+  color: #ffffff;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: rgb(0, 0, 0);
 }

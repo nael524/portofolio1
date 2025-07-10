@@ -16,7 +16,7 @@ const About = () => {
    const typingRef =useRef(null);
    useEffect(()=>{
       if(typingRef.current){
-         typeText(typingRef.current," NURKHALISA",80)
+         typeText(typingRef.current," ICEA",80)
       }
    })
   return (
@@ -36,7 +36,7 @@ const About = () => {
             <a href="https://github.com/Icea02" target="_blank" rel="noopener noreferrer">
               <FaGithub color="rgb(255, 2, 158)" />
             </a>
-            <a href="#twiter" target="_blank" rel="noopener noreferrer">
+            <a href="https://x.com/Nurkhalisa29281?t=WBmtB3axNRdLKgfxyh10aw&s=09" target="_blank" rel="noopener noreferrer">
               <FaTwitter color="rgb(255, 2, 158)"  />
             </a>
           </li>
